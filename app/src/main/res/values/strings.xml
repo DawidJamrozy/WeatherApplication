@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Breezy</string>
+
+    <!-- Common -->
+    <string translatable="false" name="common_percent">%s%%</string>
+    <string translatable="false" name="common_temp_with_unit">%1$s°%2$s</string>
+    <string translatable="false" name="common_wind_speed">%1$s, %2$s</string>
+    <string name="common_cancel">Cancel</string>
+    <string name="common_delete">Delete</string>
+    <string name="common_ok">OK</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_add">Add</string>
+    <string name="common_morning">Morning</string>
+    <string name="common_afternoon">Afternoon</string>
+    <string name="common_evening">Evening</string>
+    <string name="common_night">Night</string>
+    <string name="common_sunrise">Sunrise</string>
+    <string name="common_sunset">Sunset</string>
+    <string name="common_moonrise">Moonrise</string>
+    <string name="common_moon_phase">Moon Phase</string>
+    <string name="common_pressure">Pressure</string>
+    <string name="common_humidity">Humidity</string>
+    <string name="common_wind_speed_title">Wind Speed</string>
+    <string name="common_wind_deg">Wind Degrees</string>
+    <string name="common_wind_gust">Wind Gust</string>
+    <string name="common_cloudiness">Clouds</string>
+    <string name="common_pop">Precipitation of probability</string>
+    <string name="common_rain">Rain</string>
+    <string name="common_snow">Snow</string>
+    <string name="common_uv">UV Index</string>
+    <string name="common_daylight">Daylight</string>
+    <string name="common_pop_short">Precipprob</string>
+    <string name="common_t_max_min">t° max, min</string>
+    <string name="common_uv_index">UV index</string>
+    <string name="common_now">Now</string>
+    <string name="common_uv_low">Low</string>
+    <string name="common_uv_moderate">Moderate</string>
+    <string name="common_uv_high">High</string>
+    <string name="common_uv_very_high">Very High</string>
+    <string name="common_uv_extreme">Extreme</string>
+    <string name="common_uv_unknown">Unknown</string>
+    <string name="common_temperature">Temperature</string>
+    <string name="common_feels_like">Feels like %1$s</string>
+    <string name="common_feels_like_temp">Feels like temperature</string>
+    <string name="common_reset">Reset</string>
+    <string name="common_warning">Warning</string>
+    <string name="common_today">Today</string>
+    <string name="common_tomorrow">Tomorrow</string>
+    <string name="common_abbreviations">Abbreviations</string>
+
+    <!-- Bottom Navigation -->
+    <string name="bottom_nav_item_my_locations">My locations</string>
+    <string name="bottom_nav_item_weather">Weather</string>
+    <string name="bottom_nav_item_settings">Settings</string>
+
+    <!-- My Locations Screen-->
+    <string name="screen_my_locations_find_location">Find locations</string>
+    <string name="screen_my_locations_edit">Edit</string>
+    <string name="screen_my_locations_done">Done</string>
+    <string name="screen_my_locations_title">My Locations</string>
+    <string name="screen_my_locations_cancel">Cancel</string>
+    <string name="screen_my_locations_use_search_bar">Use the search bar to find and then add the location you need</string>
+    <string name="screen_my_locations_add_new_locations">Add new locations</string>
+    <string name="screen_my_locations_location_permission_title">Location permission required</string>
+    <string name="screen_my_locations_location_permission_message">Please enable location permission to use this feature</string>
+    <string name="screen_my_locations_location_permission_message_rationale">The location permission is required for this feature to run. Please grant the permission</string>
+    <string name="screen_my_locations_location_permission_perm_block_title">Settings</string>
+    <string name="screen_my_locations_location_permission_perm_block_message">It looks like you have permanently denied the location permission. Please enable it in the app settings</string>
+    <string name="screen_my_locations_location_permission_accept">Accept</string>
+    <string name="screen_my_locations_location_permission_reject">Reject</string>
+    <string name="screen_my_locations_delete_location_title">Delete location</string>
+    <string name="screen_my_locations_delete_location_message">Are you sure you want to delete %s location?</string>
+
+    <!-- Add city screen -->
+    <string name="screen_add_city_add">Add</string>
+
+    <!--Settings screen-->
+    <string name="screen_settings_title">Settings</string>
+    <string name="screen_settings_degrees">Degrees</string>
+    <string name="screen_settings_wind">Wind</string>
+    <string name="screen_settings_pressure">Pressure</string>
+    <string name="screen_settings_language">Language</string>
+    <string name="screen_settings_theme">Theme</string>
+    <string name="screen_settings_save">Show details</string>
+    <string name="screen_settings_about_app">About app</string>
+    <string name="screen_settings_clear_locations">Clear location list</string>
+    <string name="screen_settings_reset_settings">Reset settings</string>
+    <string name="screen_settings_theme_light">Light</string>
+    <string name="screen_settings_theme_dark">Dark</string>
+    <string name="screen_settings_theme_system">System</string>
+    <string name="screen_settings_clear_locations_message">Are you sure you want to clear all the locations you added?</string>
+    <string name="screen_settings_reset_settings_message">Are you sure you want to reset all application settings?</string>
+
+    <!-- Weather screen -->
+    <string name="screen_weather_no_weather_data_title">No city weather data has been added yet.</string>
+    <string name="screen_weather_no_data_message">See the weather around the world and add your locations to get the weather forecast.</string>
+    <string name="screen_weather_no_data_button_text">Find locations</string>
+
+    <!-- Future daily forecast screen -->
+    <string name="future_daily_forecast_screen_title">7-day forecast</string>
+
+    <!-- Future hourly forecast screen -->
+    <string name="future_hourly_forecast_screen_title">48-hour forecast</string>
+    <string name="screen_hourly_forecast_measured">Measured</string>
+    <string name="screen_hourly_forecast_feels_like">Feels like</string>
+
+    <!-- My Locations screen-->
+    <string name="screen_my_locations_find_me">Find me</string>
+    <string name="screen_my_locations_add_current_location">Add your current location?</string>
+    <string name="screen_my_locations_add_your_location_details">Let us determine your location so you don\'t waste time looking for it by yourself.</string>
+    <string name="screen_my_locations_city_data_updated_title">City data updated</string>
+    <string name="screen_my_locations_city_data_updated_message">Location %1$s was already saved, weather data was updated</string>
+
+    <!-- Permission dialog -->
+    <string name="permission_dialog_grant_permission">Grant permission</string>
+    <string name="permission_dialog_go_to_settings">Go to app settings</string>
+    <string name="permission_dialog_title">Permission required</string>
+    <string name="permission_dialog_explanation">This app needs location permission to find you and get your weather data</string>
+    <string name="permission_dialog_permanently_decline">It seems you permanently declined location permission. You can go to the app settings to grant it.</string>
+
+    <!-- About app dialog -->
+    <string name="dialog_about_app_title">About App</string>
+    <string name="dialog_about_app_message">This is a weather app created by Dawid Jamroży</string>
+
+    <!--Error message-->
+    <string name="error_title">An error occurred</string>
+    <string name="error_unknown">An unknown error occurred. Please try again later</string>
+    <string name="error_no_internet_connection">It looks like you are offline. Please check your internet connection and try again</string>
+    <string name="error_not_found">The requested resource was not found. Please check the URL and try again.</string>
+    <string name="error_unauthorized">You are not authorized to access this resource. Please log in and try again.</string>
+    <string name="error_forbidden">Access to this resource is forbidden. Please contact support if you believe this is an error.</string>
+    <string name="error_internal_server">An unexpected error occurred on our server. Please try again later.</string>
+    <string name="error_bad_request">There was a problem with your request. Please check your input and try again.</string>
+    <string name="error_api_not_connected">Failed to connect to the API. Check your connection and try again.</string>
+    <string name="error_timeout">The request timed out. Please try again later.</string>
+    <string name="error_developer_error">A developer error occurred. Please contact support.</string>
+    <string name="error_internal_error">An unexpected error occurred on our server. Please try again later.</string>
+    <string name="error_invalid_account">Invalid account. Please log in again.</string>
+    <string name="error_sign_in_required">Sign-in required. Please log in and try again.</string>
+    <string name="error_canceled">The request was canceled. Please try again.</string>
+    <string name="error_generic">An error occurred. Please try again later.</string>
+    <string name="error_interrupted">The request was interrupted. Please try again.</string>
+
+</resources>
