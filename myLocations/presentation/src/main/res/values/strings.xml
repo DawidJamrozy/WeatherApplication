@@ -1,0 +1,14 @@
+<resources>
+    <!-- My Locations Screen-->
+    <string name="screen_my_locations_find_location">Find locations</string>
+    <string name="screen_my_locations_edit">Edit</string>
+    <string name="screen_my_locations_done">Done</string>
+    <string name="screen_my_locations_title">My Locations</string>
+    <string name="screen_my_locations_cancel">Cancel</string>
+    <string name="screen_my_locations_use_search_bar">Use the search bar to find and then add the location you need</string>
+    <string name="screen_my_locations_add_new_locations">Add new locations</string>
+    <string name="screen_my_locations_delete_location_title">Delete location</string>
+    <string name="screen_my_locations_delete_location_message">Are you sure you want to delete %s location?</string>
+    <string name="screen_my_locations_city_data_updated_title">City data updated</string>
+    <string name="screen_my_locations_city_data_updated_message">Location %1$s was already saved, weather data was updated</string>
+</resources>

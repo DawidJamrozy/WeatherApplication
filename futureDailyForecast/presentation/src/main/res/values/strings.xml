@@ -1,0 +1,4 @@
+<resources>
+    <!-- Future daily forecast screen -->
+    <string name="future_daily_forecast_screen_title">7-day forecast</string>
+</resources>

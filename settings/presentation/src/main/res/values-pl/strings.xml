@@ -1,0 +1,20 @@
+<resources>
+    <!--Settings screen-->
+    <string name="screen_settings_title">Ustawienia</string>
+    <string name="screen_settings_degrees">Stopnie</string>
+    <string name="screen_settings_wind">Wiatr</string>
+    <string name="screen_settings_pressure">Ciśnienie</string>
+    <string name="screen_settings_language">Język</string>
+    <string name="screen_settings_theme">Motyw</string>
+    <string name="screen_settings_save">Pokaż szczegóły</string>
+    <string name="screen_settings_about_app">O aplikacji</string>
+    <string name="screen_settings_clear_locations">Wyczyść listę lokalizacji</string>
+    <string name="screen_settings_reset_settings">Zresetuj ustawienia</string>
+    <string name="screen_settings_theme_light">Jasny</string>
+    <string name="screen_settings_theme_dark">Ciemny</string>
+    <string name="screen_settings_theme_system">System</string>
+    <string name="screen_settings_clear_locations_message">Czy na pewno chcesz wyczyścić wszystkie dodane lokalizacje?</string>
+    <string name="screen_settings_reset_settings_message">Czy na pewno chcesz zresetować wszystkie ustawienia aplikacji?</string>
+    <string name="screen_settings_dialog_about_app_title">O aplikacji</string>
+    <string name="screen_settings_dialog_about_app_message">To jest aplikacja pogodowa stworzona przez Dawida Jamrożego</string>
+</resources>

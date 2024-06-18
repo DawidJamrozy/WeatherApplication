@@ -1,0 +1,76 @@
+<resources>
+    <!-- Common -->
+    <string name="common_cancel">Anuluj</string>
+    <string name="common_delete">Usuń</string>
+    <string name="common_ok">OK</string>
+    <string name="common_yes">Tak</string>
+    <string name="common_no">Nie</string>
+    <string name="common_add">Dodaj</string>
+    <string name="common_morning">Rano</string>
+    <string name="common_afternoon">Popołudnie</string>
+    <string name="common_evening">Wieczór</string>
+    <string name="common_night">Noc</string>
+    <string name="common_sunrise">Wschód słońca</string>
+    <string name="common_sunset">Zachód słońca</string>
+    <string name="common_moonrise">Wschód księżyca</string>
+    <string name="common_moon_phase">Faza księżyca</string>
+    <string name="common_pressure">Ciśnienie</string>
+    <string name="common_humidity">Wilgotność</string>
+    <string name="common_wind_speed_title">Prędkość wiatru</string>
+    <string name="common_wind_deg">Kierunek wiatru</string>
+    <string name="common_wind_gust">Porywy wiatru</string>
+    <string name="common_cloudiness">Zachmurzenie</string>
+    <string name="common_pop">Prawdopodobieństwo opadów</string>
+    <string name="common_rain">Deszcz</string>
+    <string name="common_snow">Śnieg</string>
+    <string name="common_uv">Indeks UV</string>
+    <string name="common_daylight">Światło dzienne</string>
+    <string name="common_pop_short">Prawd. opadów</string>
+    <string name="common_t_max_min">t° max, min</string>
+    <string name="common_uv_index">Indeks UV</string>
+    <string name="common_now">Teraz</string>
+    <string name="common_uv_low">Niski</string>
+    <string name="common_uv_moderate">Umiarkowany</string>
+    <string name="common_uv_high">Wysoki</string>
+    <string name="common_uv_very_high">Bardzo wysoki</string>
+    <string name="common_uv_extreme">Ekstremalny</string>
+    <string name="common_uv_unknown">Nieznany</string>
+    <string name="common_temperature">Temperatura</string>
+    <string name="common_feels_like_temp">Odczuwalna temperatura</string>
+    <string name="common_feels_like">Odczuwalna %1$s</string>
+    <string name="common_reset">Resetuj</string>
+    <string name="common_warning">Ostrzeżenie</string>
+    <string name="common_today">Dzisiaj</string>
+    <string name="common_tomorrow">Jutro</string>
+    <string name="common_abbreviations">Skróty</string>
+
+    <string name="future_hourly_forecast">Prognoza godzinowa (48h)</string>
+    <string name="future_daily_forecast">Prognoza dniowa (7d)</string>
+
+    <!-- Permission dialog -->
+    <string name="permission_dialog_grant_permission">Przyznaj pozwolenie</string>
+    <string name="permission_dialog_go_to_settings">Przejdź do ustawień aplikacji</string>
+    <string name="permission_dialog_title">Wymagane pozwolenie</string>
+    <string name="permission_dialog_explanation">Ta aplikacja wymaga pozwolenia na lokalizację, aby znaleźć Cię i pobrać Twoje dane pogodowe</string>
+    <string name="permission_dialog_permanently_decline">Wygląda na to, że na stałe odmówiłeś pozwolenia na lokalizację. Możesz przejść do ustawień aplikacji, aby je przyznać.</string>
+
+    <!-- Error message -->
+    <string name="error_title">Wystąpił bład</string>
+    <string name="error_unknown">Wystąpił nieznany błąd. Spróbuj ponownie później</string>
+    <string name="error_no_internet_connection">Wygląda na to, że jesteś offline. Sprawdź połączenie internetowe i spróbuj ponownie</string>
+    <string name="error_not_found">Żądany zasób nie został znaleziony. Sprawdź adres URL i spróbuj ponownie.</string>
+    <string name="error_unauthorized">Nie masz uprawnień do dostępu do tego zasobu. Zaloguj się i spróbuj ponownie.</string>
+    <string name="error_forbidden">Dostęp do tego zasobu jest zabroniony. Skontaktuj się z pomocą techniczną, jeśli uważasz, że to błąd.</string>
+    <string name="error_internal_server">Na naszym serwerze wystąpił nieoczekiwany błąd. Spróbuj ponownie później.</string>
+    <string name="error_bad_request">Wystąpił problem z Twoim żądaniem. Sprawdź dane wejściowe i spróbuj ponownie.</string>
+    <string name="error_api_not_connected">Nie udało się połączyć z API. Sprawdź swoje połączenie i spróbuj ponownie.</string>
+    <string name="error_timeout">Żądanie przekroczyło limit czasu. Spróbuj ponownie później.</string>
+    <string name="error_developer_error">Wystąpił błąd dewelopera. Skontaktuj się z pomocą techniczną.</string>
+    <string name="error_internal_error">Na naszym serwerze wystąpił nieoczekiwany błąd. Spróbuj ponownie później.</string>
+    <string name="error_invalid_account">Nieprawidłowe konto. Zaloguj się ponownie.</string>
+    <string name="error_sign_in_required">Wymagane jest zalogowanie. Zaloguj się i spróbuj ponownie.</string>
+    <string name="error_canceled">Żądanie zostało anulowane. Spróbuj ponownie.</string>
+    <string name="error_generic">Wystąpił błąd. Spróbuj ponownie później.</string>
+    <string name="error_interrupted">Żądanie zostało przerwane. Spróbuj ponownie.</string>
+
+</resources>

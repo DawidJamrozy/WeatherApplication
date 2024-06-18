@@ -1,0 +1,6 @@
+<resources>
+    <!-- Future hourly forecast screen -->
+    <string name="future_hourly_forecast_screen_title">48-hour forecast</string>
+    <string name="screen_hourly_forecast_measured">Measured</string>
+    <string name="screen_hourly_forecast_feels_like">Feels like</string>
+</resources>

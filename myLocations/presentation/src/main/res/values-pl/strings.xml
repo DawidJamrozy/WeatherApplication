@@ -1,0 +1,14 @@
+<resources>
+    <!-- My Locations Screen-->
+    <string name="screen_my_locations_find_location">Znajdź lokalizacje</string>
+    <string name="screen_my_locations_edit">Edytuj</string>
+    <string name="screen_my_locations_done">Gotowe</string>
+    <string name="screen_my_locations_title">Moje lokalizacje</string>
+    <string name="screen_my_locations_cancel">Anuluj</string>
+    <string name="screen_my_locations_use_search_bar">Użyj paska wyszukiwania, aby znaleźć i dodać potrzebną lokalizację</string>
+    <string name="screen_my_locations_add_new_locations">Dodaj nowe lokalizacje</string>
+    <string name="screen_my_locations_delete_location_title">Usuń lokalizację</string>
+    <string name="screen_my_locations_delete_location_message">Czy na pewno chcesz usunąć lokalizację %s?</string>
+    <string name="screen_my_locations_city_data_updated_title">Dane lokalizacji zaktualizowane</string>
+    <string name="screen_my_locations_city_data_updated_message">Lokalizacja %1$s jest już zapisana, dane pogodowe zostały zaktualizowane</string>
+</resources>
