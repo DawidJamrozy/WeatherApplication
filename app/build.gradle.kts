@@ -81,6 +81,17 @@ secrets {
 
 dependencies {
 
+    // Project modules
+    implementation(project(":core:ui"))
+    implementation(project(":core:data"))
+    implementation(project(":settings:presentation"))
+    implementation(project(":myLocations:presentation"))
+    implementation(project(":search:presentation"))
+    implementation(project(":futureHourlyForecast:presentation"))
+    implementation(project(":futureDailyForecast:presentation"))
+    implementation(project(":weather:presentation"))
+    implementation(project(":addCity:presentation"))
+
     // AndroidX
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.core.ktx)
@@ -93,23 +104,12 @@ dependencies {
     implementation(libs.androidx.material)
     implementation(libs.androidx.navigation.runtime.ktx)
     implementation(libs.androidx.navigation.compose)
-    implementation(libs.androidx.constraintlayout.compose)
-
-    // Permissions
-    implementation(libs.accompanist.permissions)
-
-    // Graphs
-    implementation(libs.vico.compose.m3)
+    implementation(libs.androidx.compose.animation)
 
     // DI
     implementation(libs.di.hilt.android)
     implementation(libs.di.hilt.navigation.compose)
     kapt(libs.di.hilt.compiler)
-
-    // Project
-    implementation(project(":domain"))
-    implementation(project(":data"))
-    implementation(project(":core"))
 
     // Test
     testImplementation(libs.junit)
@@ -122,6 +122,6 @@ dependencies {
     androidTestImplementation(libs.mockk)
 
     // Debug
-    debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
+    debugImplementation(libs.androidx.ui.tooling)
 }

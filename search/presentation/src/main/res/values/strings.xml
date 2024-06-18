@@ -1,0 +1,8 @@
+<resources>
+    <!-- My Locations Screen-->
+    <string name="screen_search_find_location">Find locations</string>
+    <string name="screen_search_cancel">Cancel</string>
+    <string name="screen_search_find_me">Find me</string>
+    <string name="screen_search_add_current_location">Add your current location?</string>
+    <string name="screen_search_add_your_location_details">Let us determine your location so you don\'t waste time looking for it by yourself.</string>
+</resources>

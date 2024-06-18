@@ -1,0 +1,8 @@
+<resources>
+    <!-- My Locations Screen-->
+    <string name="screen_search_find_location">Znajdź lokalizacje</string>
+    <string name="screen_search_cancel">Anuluj</string>
+    <string name="screen_search_find_me">Znajdź mnie</string>
+    <string name="screen_search_add_current_location">Dodać Twoją obecną lokalizację?</string>
+    <string name="screen_search_add_your_location_details">Pozwól nam określić Twoją lokalizację, abyś nie tracił czasu na samodzielne szukanie.</string>
+</resources>

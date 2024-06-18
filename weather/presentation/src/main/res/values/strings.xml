@@ -1,0 +1,6 @@
+<resources>
+    <!-- Weather screen -->
+    <string name="screen_weather_no_weather_data_title">No city weather data has been added yet.</string>
+    <string name="screen_weather_no_data_message">See the weather around the world and add your locations to get the weather forecast.</string>
+    <string name="screen_weather_no_data_button_text">Find locations</string>
+</resources>

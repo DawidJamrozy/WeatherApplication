@@ -18,10 +18,40 @@ modern and user-friendly interface.
 ## 2. Application architecture
 
 The application is built using the MVI (Model-View-Intent) architecture pattern and is modularized
-by layers into following modules:
-- app (presentation)
-- domain 
-- data
+by features and layers into following modules:
+
+- **app** - Main application module containing the UI and navigation logic.
+- **core** - Core module containing shared code and utilities.
+    - **data** - Core data module containing data sources and repositories.
+    - **database** - Core database module containing database and DAOs.
+    - **domain** - Core domain module containing business logic and use cases.
+    - **model** - Core model module containing data models and entities.
+    - **network** - Core network module containing network services and API clients.
+    - **ui** - Core UI module containing shared UI components and utilities.
+- **addCity** - Feature module for adding a new city to the user's location list.
+    - **data** - Add City data module containing data sources and repositories.
+    - **domain** - Add City domain module containing business logic and use cases.
+    - **presentation** - Add City presentation module containing views, view models and view states.
+- **featureDailyForecast** - Feature module for displaying daily weather forecast.
+    - **presentation** - Feature Daily Forecast presentation module containing view models and view states.
+- **featureHourlyForecast** - Secrets module containing API keys and secrets.
+    - **presentation** - Feature Hourly Forecast presentation module containing view models and view states.
+- **myLocations** - My Locations module for displaying user's saved locations.
+    - **data** - My Locations data module containing data sources and repositories.
+    - **domain** - My Locations domain module containing business logic and use cases.
+    - **presentation** - My Locations presentation module containing views, view models and view states.
+- **search** - Search module for searching weather data for a specific city.
+  - **data** - Search data module containing data sources and repositories.
+  - **domain** - Search domain module containing business logic and use cases.
+  - **presentation** - Search presentation module containing views, view models and view states.
+- **settings** - Settings module for displaying and changing application settings.
+  - **data** - Settings data module containing data sources and repositories.
+  - **domain** - Settings domain module containing business logic and use cases.
+  - **presentation** - Settings presentation module containing views, view models and view states.
+- **weather** - Weather module for displaying weather information.
+  - **data** - Weather data module containing data sources and repositories.
+  - **domain** - Weather domain module containing business logic and use cases.
+  - **presentation** - Weather presentation module containing views, view models and view states.
 
 ## 3. Technologies Used
 
@@ -75,7 +105,8 @@ To run this project locally, follow these steps:
       from Google Cloud Console (initial usage is free with limited quota).
 
 5. **Create a `secret.properties` file**:
-    - In the project root, create a `secret.properties` file and add your API key from point 4 and 5:
+    - In the project root, create a `secret.properties` file and add your API key from point 4 and
+      5:
     ```sh
     GOOGLE_API_KEY=your_google_api_key
     OPEN_WEATHER_API_KEY=your_openweathermap_api_key
@@ -94,7 +125,6 @@ To run this project locally, follow these steps:
 - View a graph of temperature changes throughout 48-hours interval.
 - View and change the application settings such as degree units, pressure units, temperature units
   and theme.
-
 
 ### 5.1 Permissions
 
